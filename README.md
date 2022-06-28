@@ -1,6 +1,6 @@
 # western-occult-magick
 
-This repository is for helping you to learn about yourself and the world using the four basic occult sciences of the 
+This repository is for helping you to learn about yourself and the world (micro- and macro-cosm) using the four basic occult sciences of the 
 Western Mystery Tradition which has its roots in Egypt:
 
 - Tarot
