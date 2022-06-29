@@ -3,15 +3,33 @@
 # Birth Path Raw Section
 
 # Asks user for their birthdate
+from tkinter import N
+
+
 birth_raw = input("What is your full Date of Birth? (mm/dd/yyyy) [eg. 5/13/1982]  \n")
 n = birth_raw
 
 # Removes non-numerical characters and spaces
-non_numbers = "._/-' '"
+non_numbers = "!@#$%^&*()-_=+._/\|?' '`~,<.>;:'0"
 for chars in non_numbers:
     n = n.replace(chars, "")
 
-birth_path = n
+#while not n.isnumeric():
+#    print("Error:  Please enter a number, not letters")
+#    birth_raw = input("What is your full Date of Birth? (mm/dd/yyyy) [eg. 5/13/1982] \n")
+
+# Makes sure a number was entered, not letters
+try:
+    ival = int(n)
+except:
+    ival = -1
+
+if ival > 0:
+    print("n = ", n)
+    birth_path = n
+else:
+    print("Error:  Please enter a number, not letters")
+    exit()
 
 # Reduces / sums amount down to one digit or notifies of master number
 def reduce(n):
