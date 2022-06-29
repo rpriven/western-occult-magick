@@ -21,6 +21,9 @@ to be able to give it a decent interface as a program or on a website instead of
 6/27 - The life-path script is getting close, however I'm running into an issue similar to above in which a master number is being
       reduced when it should not.  Looking for an improvement so that it adds each number up as it goes through the for loop so
       that it doesn't get too big and reduces incorrectly.
+      
+6/28 - The life-path script is complete except for adding more details about what the numbers actually mean.  I'll probably have more
+      completed on this tomorrow.
 
 Stay tuned, I'm looking forward to working on this more.
 
