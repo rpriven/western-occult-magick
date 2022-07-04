@@ -20,13 +20,8 @@ while name_raw.isnumeric():
     print("Error:  Please enter your name, not numbers.")
     name_raw = input("Please enter the person's Full Name: \n")
 
-name = name_raw
-
 # Removes any spaces and makes the name lowercase
-spaces = " "
-for chars in spaces:
-    name = name.replace(chars, "")
-    name = name.lower()
+name = name_raw.lower().replace(' ','')
 
 # Changes the person's Name to a number
 def name_num(name):
