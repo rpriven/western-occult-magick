@@ -31,6 +31,8 @@ to be able to give it a decent interface as a program or on a website instead of
       (which I was calling the life-path) and it has to do with the person's Name at birth.  There is also the Expression and the Birthday which also
       play a part in determining the character and gifts of the person.  As I said I am excited to keep learning more Numerology AND Python and how
       to masterfully implement these learnings in order to improve myself and make this information accessible to others.
+      
+7/8 - Here is the updated version of my Numerology script (numerology.py).  I managed to cut the code from over 300 lines down to around 150 lines of code.  There are a few things I still plan on streamlining and cleaning up such as the functions.  I'm happy with how elegant the calculations turned out after trying it many different ways and learning a lot.  I still need to add descriptions for all the numbers, coming soon.
 
 Stay tuned, I'm looking forward to working on this more.
 
