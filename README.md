@@ -34,6 +34,9 @@ to be able to give it a decent interface as a program or on a website instead of
       
 7/8 - Here is the updated version of my Numerology script (numerology.py).  I managed to cut the code from over 300 lines down to around 150 lines of code.  There are a few things I still plan on streamlining and cleaning up such as the functions.  I'm happy with how elegant the calculations turned out after trying it many different ways and learning a lot.  I still need to add descriptions for all the numbers, coming soon.
 
+7/10 - Typed up some of the Numerology meanings, I am mostly done with the general meanings.  I'm going to have to summarize some things so it doesn't become 
+      too much information.  It should be enough information to get the point across but not too much to confuse the person looking for answers about their inner self.
+
 Stay tuned, I'm looking forward to working on this more.
 
 Thank you!
