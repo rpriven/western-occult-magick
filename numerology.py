@@ -171,7 +171,9 @@ print('4: Birthday:', birthday)
 #+# General Meanings #+#
 #----------------------#
 
-
+general = ('General Meanings:', '1: INDIVIDUATION, INDEPENDENCE, ATTAINMENT')
+# if (life_path or expression or soul_urge or birthday) == 1:
+print(general[0], general[1])
 
 #-------------#
 #+# Details #+#
