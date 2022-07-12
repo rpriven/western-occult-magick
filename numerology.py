@@ -171,9 +171,30 @@ print('4: Birthday:', birthday)
 #+# General Meanings #+#
 #----------------------#
 
-general = ('General Meanings:', '1: INDIVIDUATION, INDEPENDENCE, ATTAINMENT')
-# if (life_path or expression or soul_urge or birthday) == 1:
-print(general[0], general[1])
+print('\nHere are the meanings for your numbers: \n')
+general = ('General Meanings of Numbers:', '1 - INDIVIDUATION, INDEPENDENCE, ATTAINMENT', '2 - RELATION, COOPERATION', '3 - EXPRESSION, JOY OF LIVING', '4 - LIMITATION, ORDER, SERVICE', '5 - CONSTRUCTIVE FREEDOM', '6 - BALANCE, RESPONSIBILITY, LOVE', '7 - ANALYSIS, UNDERSTANDING', '8 - MATERIAL SATISFACTION', '9 - SELFLESSNESS, HUMANITARIANISM', '11 - ILLUMINATION', '22 - MASTER BUILDER')
+if 1 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[1])
+if 2 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[2])
+if 3 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[3])
+if 4 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[4])
+if 5 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[5])
+if 6 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[6])
+if 7 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[7])
+if 8 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[8])
+if 9 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[9])
+if 11 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[10])
+if 22 in [life_path, expression, soul_urge, birthday]:
+    print(general[0], general[11])
 
 #-------------#
 #+# Details #+#
