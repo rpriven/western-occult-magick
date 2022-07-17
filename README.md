@@ -37,6 +37,16 @@ to be able to give it a decent interface as a program or on a website instead of
 7/10 - Typed up some of the Numerology meanings, I am mostly done with the general meanings.  I'm going to have to summarize some things so it doesn't become 
       too much information.  It should be enough information to get the point across but not too much to confuse the person looking for answers about their inner self.
 
+---
+
+To Do List:
+
+[ ]  Order number results so that the most important (life path) is displayed first, and so on (instead of numerical order)
+[ ]  Add in text descriptions for :       [ ]   Expression
+                                          [ ]   Soul Urge
+                                          [ ]   Birthday
+
+
 Stay tuned, I'm looking forward to working on this more.
 
 Thank you!
