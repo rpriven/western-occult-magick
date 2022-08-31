@@ -5,9 +5,11 @@
 # Functions #
 #############
 
+
 # Reduces down to one digit or notifies of master number
 def reduce(n):
-    if n == 11 or n == 22 or n == 33:
+    master_nums = [11, 22, 33, 44, 55]
+    if n in master_nums:
         master = n
         print('Master number found in Birthday!:', master)
         return master
@@ -33,15 +35,16 @@ def name_num(name):
 
 # Checks for master number, then reduces further as necessary
 def master_check(total):
+    master_nums = [11, 22, 33, 44, 55]
     r = 0
-    if total == 11 or total == 22 or total == 33 or total == 44 or total == 55:
+    if total in master_nums:
         master = total
         print('Master found! Congtratulations, your name has a Master Number of', master)
         return master
     if total >= 10:
         r = sum(int(digit) for digit in str(total))
         total = r
-        if total == 11 or total == 22 or total == 33 or total == 44 or total == 55:
+        if total in master_nums:
             master = total
             print('Master found! Congtratulations, your name has a Master Number of', master)
             return master
